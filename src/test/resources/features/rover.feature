@@ -5,7 +5,7 @@ Feature: Rover movement
 
     # Testing task a
   @TaskA
-  Scenario: Verify Rover's direction facing and positioning after setting it to 2,3,3 (direction 1=North, 2=East, 3=South, 4=West)
+  Scenario: Verify Rover's direction facing and positioning after setting it to 2,2,3 (direction 1=North, 2=East, 3=South, 4=West)
     Given rover's x position 2, y position 2 and facing direction 3
     When I check the direction and position of rover
     Then I should see rover's x co-ordinate position is 2
