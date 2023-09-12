@@ -1,3 +1,4 @@
+@Sanity
 Feature: Rover movement
   As a NASA engineer,
   I want to move robotics rovers on Mar's plateau
